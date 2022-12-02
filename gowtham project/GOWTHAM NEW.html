@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+       <style>
+       #topbar
+{
+    background-color:black;
+    height: 10px;
+    width: 100%;
+
+}
+        body
+        {
+            background-color:white;
+        }
+        #header
+        {
+            height: 80px;
+            background-color: white;
+        
+        }
+        #container
+        {
+            background-color:white;
+            width: 70%;
+            margin: 0px auto;
+       
+        }
+         #header img
+        {
+            height: 80px;
+        }
+        #header ul
+        {
+           float: right;
+            margin-top: 25px;
+        }
+        #header ul li 
+        {
+            display:inline;
+            margin-right: 20px;
+        }
+        #header ul li a
+        {
+            color: gray;
+            font-size: 15px;
+            text-decoration-line:none;
+           }
+         #demo
+           {
+               padding-bottom:20px;
+               
+           }
+            .centered {
+                position: absolute;
+                padding-bottom: 200px;
+                transform: translate(-50%, -50%);
+                left: 200px;
+               
+            }
+           .centered button
+           {
+               background:transparent;
+               margin: 20px 10px;
+               border-radius: 25px;
+               cursor: pointer;
+               position: relative;
+               overflow:hidden;
+               font-weight: bold;
+               text-align: center;
+               border: 2px solid violet;
+            transition: 0.5s;
+               }
+           .centered button a{
+               color: violet;
+           }
+           #content1 img{
+              
+               float: left;
+            padding-left: 100px;
+               
+               
+           }
+            #content2 img{
+              
+               float: right;
+                padding-right: 100px;
+           }
+           #content3{
+            float: left;
+               background-color:white;
+               width:35%;
+               
+                  margin-left: 75px;
+            
+           }   
+            #content4{
+            float: right;
+               background-color:white;
+               width:35%;
+              
+                  margin-right: 75px;
+            
+           }   
+           .heading{
+            padding: 25px;
+               text-align: center;
+               font-weight: bold;
+               color:darkred;
+           }
+            #content3 p{
+            padding: 5px;
+               text-align: center;
+               font-weight: bold;
+               color:gray;
+           }
+            #content4 p{
+            padding: 5px;
+               text-align: center;
+               font-weight: bold;
+               color:gray;
+           }
+           #footer{
+               width: 100%;
+               height: 80px;
+               background-color: black;
+               clear: both;
+           }
+             #footer ul
+        {
+           float: right;
+            margin-top: 25px;
+        }
+        #footer ul li 
+        {
+            display:inline;
+            margin-right: 30px;
+           }
+           #footer p{
+               color:gainsboro;
+               padding: 25px;
+           }
+        </style>
+ <body>
+<div id="topbar">
+        </div>
+        <div id="container">
+                        <div id="header">
+            
+                <img src="logo.jpeg">
+                          
+                <ul> 
+                     <li><a href="file:///C:/Users/Manikandan/Desktop/web%20desing%20project/project%20new.html#demo">HOME</a></li>
+                     <li><a href="https://www.asianpaints.com/products/paints-and-textures.html">PAINT& TEXTURES</a></li>
+                     <li><a href="https://www.asianpaints.com/products/wall-coverings.html">WALLPAPER</a></li>
+                     <li><a href="https://www.asianpaints.com/services.html">SERVICES</a></li>
+                     <li><a href="https://www.asianpaints.com/services.html">IDEAS</a></li>
+                         <li><a href="https://www.asianpaints.com/online-shop.html">SHOP</a></li>  
+                         </ul>
+            </div>
+            <div id="demo" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+                 <li data-target="#demo" data-slide-to="1"></li>
+                 <li data-target="#demo" data-slide-to="2"></li></ul>
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="con1.jpeg"  width="1100" height="500">
+         <div class="centered"><button type="submit" class="btn btn-light"><a href="https://www.asianpaints.com/content/dam/asian_paints/products/booklets/safe-painting-brochure-new.pdf"> Learn More</a></button>
+            </div>  
+                    </div>
+                    <div class="carousel-item">
+                    <img src="con2.jpeg"  width="1100" height="500">
+          <div class="centered"><button type="submit" class="btn btn-light"><a href="https://www.asianpaints.com/content/dam/asian_paints/products/booklets/safe-painting-brochure-new.pdf"> Learn More</a></button>
+            </div>  
+                    </div>
+                    
+                    <div class="carousel-item">
+                    <img src="con3.jpeg"  width="1100" height="500">
+                        <div class="centered"><button type="submit" class="btn btn-light"><a href="https://www.asianpaints.com/content/dam/asian_paints/products/booklets/safe-painting-brochure-new.pdf">Learn More</a></button>
+                        </div>   
+                    </div>
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span></a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span></a>
+                   
+                   
+                </div>
+            </div>
+            <div id="content1">
+               
+                <img src="content1.jpeg" width="40%">
+                    </div>
+                    <div id="content2">
+                        <img src="content2.jpeg" width="40%">      
+              </div>
+            <div id="content3">
+            <h4 class="heading">Wall Textures...</h4>
+                <p>High-quality textured designs to get a modern facelift for your homes and other spaces.While the holidays are a great reason to feel and spread more love and joy, this time of the year can make things especially tough for those who will be hosting this festival season. You might want to look into multiple house painting design ideas to help you plan better for the festive season. Keep reading on to discover the best ways to amplify your house before the festive sprint House Painted.</p>
+            </div>
+             <div id="content4">
+             <h4 class="heading">Wallpapers...</h4>
+                 <p>Wallpaper is a material used in interior decoration to decorate the interior walls of domestic and public buildings. It is usually sold in rolls and is applied onto a wall using wallpaper paste. Wallpapers can come plain as "lining paper" (so that it can be painted or used to help cover uneven surfaces and minor wall defects thus giving a better surface), textured (such as Anaglypta), with a regular repeating pattern design, or, much less commonly today, with a single non-repeating large design carried over a set of sheets. </p>
+            </div>
+        </div>
+     <div id="footer">
+         <ul>
+             <li><a href="https://www.facebook.com/asianpaints"><img src="face.jpeg" width="8%"></a></li>
+                <li><a href="https://www.pinterest.com/asianpaints"><img src="pin.jpeg" width="8%"></a></li>
+                 <li><a href="https://www.instagram.com/asianpaints"><img src="insta.jpeg" width="8%"></a></li>
+                 <li><a href="https://twitter.com/asianpaints"><img src="twit.jpeg" width="8%"></a></li>
+                 <li><a href="https://www.youtube.com/user/AsianPaintsIndia"><img src="you.jpeg" width="8%"></a></li>
+         </ul>
+         <p>Asian Paints (I) Ltd. vs Jaikishan Paints & Allied ... on 12 September, 2002</p>
+     
+     </div>
+      </body>
+</html>
